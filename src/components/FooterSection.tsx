@@ -21,34 +21,8 @@ export const FooterSection: React.FC = () => {
 
                 {/*<!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->*/}
                 <p className="footer__text">
-                    © 2021 - Template developed by
-                    <a rel="noreferrer" href="https://github.com/cobidev" target="_blank"
-                    >Jacobo Martínez</a
-                    >
-                </p>
-
-                {/*<!-- TO DO: remove this entire paragraph once you finish your portfolio -->*/}
-                <p className="mt-3 pt-3">
-                    <a
-                        rel="noreferrer"
-                        className="github-button"
-                        href="https://github.com/cobidev/simplefolio/fork"
-                        data-icon="octicon-repo-forked"
-                        data-size="large"
-                        data-show-count="true"
-                        aria-label="Fork ntkme/github-buttons on GitHub"
-                    >Fork</a
-                    >
-                    <a
-                        rel="noreferrer"
-                        className="github-button"
-                        href="https://github.com/cobidev/simplefolio"
-                        data-icon="octicon-star"
-                        data-size="large"
-                        data-show-count="true"
-                        aria-label="Star cobidev/simplefolio on GitHub"
-                    >Star</a
-                    >
+                    © 2022 - Общество с ограниченной ответственностью "Волго-Камская инжиниринговая
+                    компания»
                 </p>
             </div>
         </footer>

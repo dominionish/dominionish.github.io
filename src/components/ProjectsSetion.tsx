@@ -87,6 +87,44 @@ export const ProjectsSection: React.FC = () => {
                         </div>
                     </div>
                     {/*<!-- /END Project -->*/}
+
+                    {/*<!-- Notice: each .row is a project -->*/}
+                    <div className="row">
+                        <div className="col-lg-4 col-sm-12">
+                            <div className="project-wrapper__text load-hidden">
+                                <h3 className="project-wrapper__text-title">Сенсор Монитор</h3>
+                                <div>
+                                    <p className="mb-4">
+                                        Реализована система для удаленного управления тепловыми пунктами.
+                                        Спроектирована микросервисная архитектура. В качестве сервера использовался RaspberryPi.
+                                        Продумана система оповещения операторов в момент аварии.
+                                        Есть возможность подписки на изменение любого параметра теплового пункта (температура, давление и пр.).
+                                        В качестве уведомлений использовался Телеграм-бот. Весь проект проектировался и писался с нуля.  Срок реализации - 2 года.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-8 col-sm-12">
+                            <div className="project-wrapper__image load-hidden">
+                                <a rel="noreferrer" href="#!" target="_blank">
+                                    <div
+                                        data-tilt
+                                        data-tilt-max="4"
+                                        data-tilt-glare="true"
+                                        data-tilt-max-glare="0.5"
+                                        className="thumbnail rounded js-tilt"
+                                    >
+                                        <img
+                                            alt="Project"
+                                            className="img-fluid"
+                                            src="assets/Sensor.png"
+                                        />
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    {/*<!-- /END Project -->*/}
                 </div>
             </div>
         </section>
